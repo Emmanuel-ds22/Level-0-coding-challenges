@@ -1,6 +1,7 @@
 #Task 0.4
 def even_or_odd(x):
-if x%2 == 0:
- print("even")
-else:
- print("odd")
+ if x%2 == 0:
+  print("even")
+ else:
+  print("odd")
+  
