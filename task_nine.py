@@ -1,6 +1,6 @@
 #Task 0.9
-
-def Vowels(string)
-for i in range(len(string)):
- if string[i] in "aeou":
-  pirnt(string[1])
+def Vowels(string):
+ for i in range(0,len(string)):
+  if string[i] in "AaEeIiOoUu":
+   print (string[i])
+   
