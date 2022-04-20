@@ -1,4 +1,3 @@
-#Task 0.9
 def Vowels(string):
  for i in range(0,len(string)):
   if string[i] in "AaEeIiOoUu":
