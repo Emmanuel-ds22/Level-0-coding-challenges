@@ -1,4 +1,3 @@
-#Task 0.6
 def maximum(a,b,c):
 
  if a>b:
