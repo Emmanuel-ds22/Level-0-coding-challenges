@@ -2,11 +2,12 @@ def maximum(a,b,c):
 
  if a>b:
   if a>c:
-   print(a)
+   return a
   else:
-   print(c)
+   return c
  else:
   if b>c:
-   print(b)
+   return b
   else:
-   print(c)
+   return c
+  
