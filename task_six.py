@@ -1,5 +1,4 @@
 def maximum(a,b,c):
-
  if a>b:
   if a>c:
    return a
