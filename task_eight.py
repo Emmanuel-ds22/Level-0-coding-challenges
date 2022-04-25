@@ -1,5 +1,5 @@
 def hours_and_minutes(num): 
  hours = num%60
  minutes = num//60
- print(str(hours)+"hours"+ str(minutes)+"minutes")
+ print(str(hours)+"hours and "+ str(minutes)+"minutes")
  
