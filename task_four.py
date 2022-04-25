@@ -4,3 +4,4 @@ def even_or_odd(x):
  else:
   print("odd")
   
+even_or_odd(13)  
