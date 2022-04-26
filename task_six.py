@@ -1,12 +1,12 @@
-def maximum(a,b,c):
- if a>b:
-  if a>c:
-   return a
+def maximum(num_a,num_b,num_c):
+ if num_a>num_b:
+  if num_a>num_c:
+   return num_a
   else:
-   return c
+   return num_c
  else:
-  if b>c:
-   return b
+  if num_b>num_c:
+   return num_b
   else:
-   return c
+   return num_c
   
