@@ -1,14 +1,17 @@
 def vowels(string):
- srting = string.lower()
+ string = string.lower()
  string2 =[]
+ vowels = []
  for i in range(len(string)-1):
   if string[i] not in string[i+1:]:
    string2.append(string[i])
  string2.append(string[len(string)-1]) 
  
- for j in range(len(string2)-1):
-  if string2[j] in "aeiou":
-   print(string2[j],end =",")
-   
- if string2[len(string2)-1] in "aeiou":
-  print(string2[len(string2)-1])
+ for i in range(len(string2)):
+  if string2[i] in "aeiou":
+   vowels.append(string2[i])
+
+ 
+ for j in range(len(vowels)-1):
+   print(vowels[j],end =",")
+ print(vowels[len(vowels)-1])
