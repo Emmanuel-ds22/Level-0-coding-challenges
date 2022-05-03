@@ -14,5 +14,6 @@ def vowels(string):
  print("Vowels: ", end="")
  for j in range(len(vowels)-1):
    print(vowels[j],end =",")
- print(vowels[len(vowels)-1])
+ if len(vowels)>1:
+   print(vowels[len(vowels)-1])
   
