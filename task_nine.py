@@ -11,7 +11,8 @@ def vowels(string):
   if string2[i] in "aeiou":
    vowels.append(string2[i])
 
- 
+ print("Vowels: ", end="")
  for j in range(len(vowels)-1):
    print(vowels[j],end =",")
  print(vowels[len(vowels)-1])
+  
