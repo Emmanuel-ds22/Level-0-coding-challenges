@@ -16,5 +16,4 @@ def common_characters(letter1,letter2):
  print("Common letters: ", end="")
  for j in range(len(common_letters2)-1):
    print(common_letters2[j],end =",")
- if len(common_letters2)>0:
    print(common_letters2[len(common_letters2)-1])
