@@ -3,11 +3,11 @@ def hours_and_minutes(num):
     hours = num // 60
     if minutes == 1:
         if hours == 1:
-            print(f"{hours} hour , {minutes}minute")
+            print(f"{hours} hour , {minutes} minute")
         else:
-            print(f"{hours} hours , {minutes}minute")
+            print(f"{hours} hours , {minutes} minute")
     else:
         if hours == 1:
-            print(f"{hours} hour , {minutes}minutes")
+            print(f"{hours} hour , {minutes} minutes")
         else:
-            print(f"{hours} hours , {minutes}minutes")
+            print(f"{hours} hours , {minutes} minutes")
