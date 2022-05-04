@@ -4,7 +4,7 @@ def common_characters(letter1, letter2):
     common_letters = []
     common_letters2 = []
 
-    for i in range(len(letter1) - 1):
+    for i in range(len(letter1)):
         if letter1[i] in letter2:
             common_letters.append(letter1[i])
 
